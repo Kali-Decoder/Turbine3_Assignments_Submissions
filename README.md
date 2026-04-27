@@ -9,7 +9,7 @@ This repository is organized by weeks and specific assignments:
 | Week | Assignment | Description | Status |
 | :--- | :--- | :--- | :--- |
 | **0** | [Assignment 0](./assignment-0) | Environment setup, Anchor initialization, and basic program. | ✅ Completed |
-| **1** | Assignment 1 | (Coming Soon) | ⏳ Pending |
+| **1** | Assignment 1 | Guessing Game in Rust | ✅ Completed |
 | **2** | Assignment 2 | (Coming Soon) | ⏳ Pending |
 | **3** | Assignment 3 | (Coming Soon) | ⏳ Pending |
 | **4** | Assignment 4 | (Coming Soon) | ⏳ Pending |
