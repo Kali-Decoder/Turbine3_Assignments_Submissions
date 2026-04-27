@@ -33,7 +33,7 @@ This repository is organized by weeks and specific assignments:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/HkSolDev/Turbin3_assignments.git
+   git clone https://github.com/Kali-Decoder/Turbine3_Assignments_Submissions.git
    cd Turbin3_assignments
    ```
 
@@ -53,5 +53,5 @@ This repository is organized by weeks and specific assignments:
    ```
 
 ---
-*Built with ❤️ during the Turbin3 Solana Builder Bootcamp.*
-# Turbine3_Assignments_Submissions
+*Built with ❤️ Nikku.Dev during the Turbin3 Solana Builder Bootcamp.*
+
