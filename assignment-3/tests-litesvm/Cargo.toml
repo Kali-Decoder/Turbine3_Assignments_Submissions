@@ -1,0 +1,14 @@
+[package]
+name = "tests-litesvm"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dev-dependencies]
+anchor_vault = { path = "../programs/anchor_vault", features = ["no-entrypoint"] }
+anchor-lang = "0.32.1"
+litesvm = "0.7"
+solana-sdk = "2.3"

@@ -1,0 +1,19 @@
+running 4 tests
+test init_writes_both_bumps ... ok
+test deposit_credits_vault ... ok
+test withdraw_pays_user_back ... ok
+test close_drains_everything ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.09s
+
+nikku.jr.dev@MacBook-Air assignment-3 % 
+
+
+
+
+Program Id: AmGUxUaTS89qUjB3mXzX6HXHKwZaC5fcSKxEeQYDeDnT
+
+Signature: 5yMX9rs8GLEuFiueRt6mQTXq23xFDU5W9v1e8Z7zKQKYhcQJW6eZ8Q2UhtGCuNsQ1ANLTQJBPFocbtsKtvKvsxUH
+
+Waiting for program AmGUxUaTS89qUjB3mXzX6HXHKwZaC5fcSKxEeQYDeDnT to be confirmed...
+Program confirmed on-chain
