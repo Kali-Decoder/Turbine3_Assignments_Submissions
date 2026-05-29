@@ -1,0 +1,18 @@
+[package]
+name = "escrow-litesvm-tests"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+anchor-lang = "1.0"
+anchor-spl = "1.0"
+escrow = { path = "../programs/escrow", features = ["no-entrypoint"] }
+litesvm = "0.12"
+solana-sdk = "3"
+solana-system-interface = "3"
+spl-token = "9"
+spl-associated-token-account = "8"

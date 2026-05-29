@@ -1,0 +1,19 @@
+[toolchain]
+package_manager = "yarn"
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+escrow = "C2oi9cyMqb3VkRFJTxV7ePsViZBhPY7vhPLxZ6uNyPjK"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "localnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "RUSTUP_TOOLCHAIN=1.89.0 cargo test -p escrow-litesvm-tests --tests -- --nocapture"
