@@ -10,9 +10,12 @@ This repository is organized by weeks and specific assignments:
 | :--- | :--- | :--- | :--- |
 | **0** | [Assignment 0](./assignment-0) | Environment setup, Anchor initialization, and basic program. | ✅ Completed |
 | **1** | Assignment 1 | Guessing Game in Rust | ✅ Completed |
-| **2** | Assignment 2 | (Coming Soon) | ⏳ Pending |
-| **3** | Assignment 3 | (Coming Soon) | ⏳ Pending |
-| **4** | Assignment 4 | (Coming Soon) | ⏳ Pending |
+| **2** | Assignment 2 | SPL and NFT | ✅ Completed |
+| **3** | Assignment 3 | Anchor Vault | ✅ Completed |
+| **4** | Assignment 4 | Anchor Escrow | ✅ Completed |
+| **4** | Assignment 5 | AMM | ✅ Completed |
+| **4** | Assignment 6 | NFT Staking | ✅ Completed |
+| **4** | Assignment 7 | NFT Marketplace | ✅ Completed |
 
 ## 🚀 Official Resources
 
