@@ -16,6 +16,7 @@ This repository is organized by weeks and specific assignments:
 | **4** | Assignment 5 | AMM | ✅ Completed |
 | **4** | Assignment 6 | NFT Staking | ✅ Completed |
 | **4** | Assignment 7 | NFT Marketplace | ✅ Completed |
+| **6** | [Assignment 8](./assignment-8) | Instruction Introspection AMM | ✅ Completed |
 
 ## 🚀 Official Resources
 

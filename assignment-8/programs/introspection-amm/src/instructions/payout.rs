@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 use anchor_spl::associated_token::AssociatedToken;
 use anchor_spl::token_interface::{self, Mint, TokenAccount, TokenInterface, TransferChecked};
-use solana_program::sysvar::instructions;
+use anchor_lang::solana_program::sysvar::instructions;
 
 use crate::constants::{CONFIG_SEED, LP_SEED};
 use crate::curve::withdraw_amount;

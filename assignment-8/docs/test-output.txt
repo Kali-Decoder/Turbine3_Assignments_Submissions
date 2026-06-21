@@ -1,0 +1,40 @@
+    Finished `release` profile [optimized] target(s) in 0.20s
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.20s
+     Running unittests src/lib.rs (target/debug/deps/introspection_amm-0d2214e798d697c9)
+
+Found a 'test' script in the Anchor.toml. Running it as a test suite!
+
+Running test suite: "/Users/nikku.jr.dev/Downloads/Turbin3_assignments/assignment-8/Anchor.toml"
+
+(node:25906) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///Users/nikku.jr.dev/Downloads/Turbin3_assignments/assignment-8/tests/introspection-amm.ts is not specified and it doesn't parse as CommonJS.
+Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+To eliminate this warning, add "type": "module" to /Users/nikku.jr.dev/Downloads/Turbin3_assignments/assignment-8/package.json.
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+
+  introspection-amm
+    initialize
+      ✔ creates config, LP mint, and vaults (480ms)
+      ✔ rejects identical mints
+      ✔ rejects invalid fee
+    deposit
+      ✔ bootstraps liquidity and mints LP (467ms)
+      ✔ rejects zero deposit
+    swap
+      ✔ swaps A for B (473ms)
+      ✔ swaps B for A (488ms)
+      ✔ rejects excessive slippage
+    burn_lp + payout (instruction introspection)
+      ✔ withdraws via burn_lp immediately followed by payout (477ms)
+      ✔ rejects payout without a preceding burn_lp
+      ✔ rejects payout when burn_lp is not the previous instruction
+      ✔ rejects burn_lp with zero amount
+      ✔ rejects payout when slippage is too high
+    lock / unlock
+      ✔ rejects lock from non-authority
+      ✔ locks and blocks burn_lp (450ms)
+      ✔ unlocks the pool (476ms)
+
+
+  16 passing (9s)
+

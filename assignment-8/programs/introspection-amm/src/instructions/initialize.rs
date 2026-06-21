@@ -64,7 +64,7 @@ pub fn initialize_handler(
     fee_bps: u16,
     authority: Option<Pubkey>,
 ) -> Result<()> {
-    require!(fee_bps < FEE_DENOMINATOR, AmmError::InvalidFee);
+    require!((fee_bps as u64) < FEE_DENOMINATOR, AmmError::InvalidFee);
 
     ctx.accounts.config.set_inner(Config {
         seed,
